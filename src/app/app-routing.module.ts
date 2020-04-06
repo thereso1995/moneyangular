@@ -1,3 +1,4 @@
+import { AjoutUsersComponent } from './components/ajout-users/ajout-users.component';
 import { DefaultComponent } from './components/layout/default/default.component';
 
 
@@ -16,7 +17,8 @@ const routes: Routes = [
 
   ]
 },
-  {path:'login',component:ConnexionComponent}
+  {path:'login',component:ConnexionComponent},
+  {path:'inscription',component:AjoutUsersComponent}
   
 
 ];
